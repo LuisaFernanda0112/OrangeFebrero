@@ -1,0 +1,13 @@
+
+
+Feature: all pim
+@Addemployee
+
+Scenario Outline: add employee
+	Given open the browser
+	And  the user fill out user name <userName> and password <pass>
+	when the user access to the add employee
+	Examples:
+
+	|userName|pass|
+	|Admin|admin123|
